@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities build="b39" majorVersion="7" minorVersion="3" modelPersistenceProviderPackage="PostgresPersistenceProviderPackage" revision="1" schemaVersion="931">
+    <Things>
+        <Thing aspect.isEditableExtensionObject="true" description="" documentationContent="" effectiveThingPackage="GrokDownloaderTemplatePackage" enabled="true" homeMashup="" identifier="" lastModifiedDate="2017-02-27T15:55:18.048-05:00" name="GrokDownloaderThing" projectName="" published="false" tags="" thingTemplate="GrokDownloaderTemplate" valueStream="">
+            <Owner name="Administrator" type="User"/>
+            <avatar/>
+            <DesignTimePermissions>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
+            </DesignTimePermissions>
+            <RunTimePermissions/>
+            <VisibilityPermissions>
+                <Visibility/>
+            </VisibilityPermissions>
+            <ConfigurationTables>
+                <ConfigurationTable description="" isMultiRow="false" name="baseURLs" ordinal="0">
+                    <DataShape>
+                        <FieldDefinitions>
+                            <FieldDefinition aspect.defaultValue="http://ah-opengrok.ptcnet.ptc.com/" aspect.isRequired="true" baseType="STRING" description="" name="baseURL_1" ordinal="0"/>
+                            <FieldDefinition aspect.defaultValue="http://bla-grok-01/source/" baseType="STRING" description="" name="baseURL_2" ordinal="1"/>
+                        </FieldDefinitions>
+                    </DataShape>
+                    <Rows>
+                        <Row>
+                            <baseURL_1><![CDATA[http://ah-opengrok.ptcnet.ptc.com/]]></baseURL_1>
+                            <baseURL_2><![CDATA[http://bla-grok-01/source/]]></baseURL_2>
+                        </Row>
+                    </Rows>
+                </ConfigurationTable>
+            </ConfigurationTables>
+            <ThingShape>
+                <PropertyDefinitions/>
+                <ServiceDefinitions/>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations/>
+                <Subscriptions/>
+            </ThingShape>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <ImplementedShapes/>
+            <ThingProperties/>
+            <ConfigurationChanges>
+                <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated, thingTemplate : updated&#10;" timestamp="2017-02-27T15:55:18.047-05:00" user="Administrator"/>
+            </ConfigurationChanges>
+        </Thing>
+    </Things>
+</Entities>
